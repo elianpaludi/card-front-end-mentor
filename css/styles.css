@@ -10,7 +10,7 @@ body {
   background-color: var(--dark-cyan);
   background-image: url("../profile-card-component-main/images/bg-pattern-top.svg"), url("../profile-card-component-main/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-position: right 50vw bottom 35vh, left 50vw top 40vh;
 }
 
 html {
@@ -39,11 +39,11 @@ html {
 
 .card {
   background-color: #fff;
-  width: 326px;
+  width: 310px;
   border-radius: 15px;
   overflow: hidden;
-  -webkit-box-shadow: 2px 3px 10px gray;
-          box-shadow: 2px 3px 10px gray;
+  -webkit-box-shadow: 5px 6px 12px #525252;
+          box-shadow: 5px 6px 12px #525252;
 }
 
 .card-header {
@@ -62,7 +62,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #b9b9b9;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .card-body-img {
@@ -96,7 +96,7 @@ html {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .card-footer-social {
@@ -104,8 +104,8 @@ html {
 }
 
 .card-footer-social p {
-  letter-spacing: 0.3rem;
-  font-size: 14px;
+  letter-spacing: 0.11rem;
+  font-size: 1.2rem;
   color: var(--dark-grayish-blue);
 }
 /*# sourceMappingURL=styles.css.map */
